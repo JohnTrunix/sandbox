@@ -11,7 +11,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     defaults:
       run:
-        working-directory: ./emily
+        working-directory: ./emily-script
     steps:
       - uses: actions/checkout@v3
       - name: set up go
@@ -32,4 +32,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: coverage-report
-          path: ./emily/coverage.out
+          path: ./emily-script/coverage.out
