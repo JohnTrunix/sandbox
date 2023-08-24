@@ -1,6 +1,6 @@
 # Stack
 
-A stack is a linear data structure with a fixed order. Last item pushed to stack is first item popped from stack.
+A stack is a linear data structure with a fixed order. Last node pushed to stack is first node popped from stack.
 
 ```mermaid
 graph TD
@@ -21,6 +21,10 @@ graph TD
     H2 --> C2
 ```
 
+**Pointers:**
+- `Head`: points to last added node
+- `Previous`: node pointer which points to 2nd last added node
+
 ## Push new data to stack
 
 _Push data to stack and move `HEAD` pointer to added Node_
@@ -33,7 +37,7 @@ func (s *Stack) Push(data int) {
 }
 ```
 
-## Pop data from stack (pop last added item)
+## Pop data from stack (pop last added node)
 
 _Pop data from stack and move `HEAD` pointer to second last added Node_
 
@@ -50,7 +54,7 @@ func (s *Stack) Pop() (int, bool) {
 }
 ```
 
-## Peek data from stack (peek last added item)
+## Peek data from stack (peek last added node)
 
 _Peek data from stack, get value from `HEAD` pointer_
 
