@@ -2,6 +2,7 @@ package main
 
 import (
 	"datastructures/binarySearchTree"
+	"datastructures/stack"
 	"fmt"
 )
 
@@ -18,4 +19,14 @@ func main() {
 
 	// search Node
 	fmt.Println(root.Search(15))
+
+	/*
+		Stack
+	*/
+	s := stack.New()
+	s.Push(100)
+	s.Push(200)
+
+	fmt.Println(s.Size())
+	fmt.Println(s.Pop())
 }
