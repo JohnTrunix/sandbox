@@ -4,6 +4,13 @@ Welcome to my sandbox! This is a repository where I try to create/invent/copy st
 
 ## Current Projects in this repository
 
-| Name         | Description                            | Path           | Dir             |
-|--------------| -------------------------------------- | -------------- |-----------------|
-| emily-script | A simple script language written in go | [emily](emily-script) | `/emily-script` |
+| Name         | Description                            |  Dir             |
+|:-------------|----------------------------------------|------------------|
+| emily-script | a simple script language written in go |  `/emily-script` |
+
+
+## Data Structures (DIY)
+
+| Name             | Description                                     | Dir                                | Doc                                                   |
+|:-----------------|-------------------------------------------------|------------------------------------|-------------------------------------------------------|
+| binarySearchTree | binary search tree implementation written in go | `/datastructures/binarySearchTree` | [readme](./datastructures/binarySearchTree/README.md) |
