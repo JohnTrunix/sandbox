@@ -4,6 +4,6 @@ Welcome to my sandbox! This is a repository where I try to create/invent/copy st
 
 ## Current Projects in this repository
 
-| Name  | Description                            | Path           | Dir      |
-| ----- | -------------------------------------- | -------------- | -------- |
-| emily | A simple script language written in go | [emily](emily) | `/emily` |
+| Name         | Description                            | Path           | Dir             |
+|--------------| -------------------------------------- | -------------- |-----------------|
+| emily-script | A simple script language written in go | [emily](emily-script) | `/emily-script` |

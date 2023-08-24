@@ -1,6 +1,6 @@
 package lexer
 
-import "emily/token"
+import "emily-script/token"
 
 type Lexer struct {
 	input        string

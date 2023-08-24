@@ -1,7 +1,7 @@
 package main
 
 import (
-	"emily/repl"
+	"emily-script/repl"
 	"fmt"
 	"os"
 	"os/user"

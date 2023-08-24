@@ -3,9 +3,9 @@
 package parser
 
 import (
-	"emily/ast"
-	"emily/lexer"
-	"emily/token"
+	"emily-script/ast"
+	"emily-script/lexer"
+	"emily-script/token"
 )
 
 type Parser struct {

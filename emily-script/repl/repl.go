@@ -2,8 +2,8 @@ package repl
 
 import (
 	"bufio"
-	"emily/lexer"
-	"emily/token"
+	"emily-script/lexer"
+	"emily-script/token"
 	"fmt"
 	"io"
 	"os"

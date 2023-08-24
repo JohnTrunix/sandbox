@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"emily/ast"
-	"emily/lexer"
+	"emily-script/ast"
+	"emily-script/lexer"
 	"testing"
 )
 

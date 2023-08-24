@@ -1,6 +1,6 @@
 package ast
 
-import "emily/token"
+import "emily-script/token"
 
 type Node interface {
 	TokenLiteral() string

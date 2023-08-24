@@ -3,7 +3,7 @@ package lexer
 import (
 	"testing"
 
-	"emily/token"
+	"emily-script/token"
 )
 
 func TestNextToken(t *testing.T) {
