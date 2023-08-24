@@ -3,7 +3,7 @@
 A queue is a linear data structure with a fixed order. First enqueued node to queue is first dequeued node from queue.
 
 ```mermaid
-graph TD
+graph LR
     R[Rear]
     F[Front]
     E1[1st Element]
@@ -11,10 +11,10 @@ graph TD
     E3[3rd Element]
     
     
-    E1 --> E2
-    E2 --> E3
-    F --> E1
     R --> E3
+    E3 --> E2
+    E2 --> E1
+    F --> E1
 ```
 
 **Pointers:**
