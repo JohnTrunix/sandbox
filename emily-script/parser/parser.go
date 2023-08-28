@@ -1,5 +1,3 @@
-//S41 mitte
-
 package parser
 
 import (
