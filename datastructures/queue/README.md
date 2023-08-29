@@ -1,6 +1,6 @@
 # Queue
 
-A queue is a linear data structure with a fixed order. First enqueued node to queue is first dequeued node from queue.
+A `Queue` is a linear data structure with a fixed order. First enqueued node to queue is first dequeued node from queue.
 
 ```mermaid
 graph LR
