@@ -1,6 +1,6 @@
 # Stack
 
-A stack is a linear data structure with a fixed order. Last node pushed to stack is first node popped from stack.
+A `Stack` is a linear data structure with a fixed order. Last node pushed to stack is first node popped from stack.
 
 ```mermaid
 graph TD
