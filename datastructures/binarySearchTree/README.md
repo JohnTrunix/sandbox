@@ -1,6 +1,6 @@
 # Binary Search Tree
 
-`Binary Search Tree` is a node-based data structure with following rules:
+A `Binary Search Tree` is a node-based data structure with following rules:
 -  every node has the following properties:
     - Value
     - Pointer to left child (can be `NULL`)
