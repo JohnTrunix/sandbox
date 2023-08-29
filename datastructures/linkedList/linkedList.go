@@ -31,3 +31,22 @@ func (l *LinkedList) Add(data int) {
 	}
 	curr.Next = node
 }
+
+// Search if node with value exists in linked list
+func (l *LinkedList) Search(data int) bool {
+	curr := l.HEAD
+
+	if curr.Value == data {
+		return true
+	}
+
+	for curr.Next != nil {
+		curr = curr.Next
+
+		if curr.Value == data {
+			return true
+		}
+	}
+
+	return false
+}
