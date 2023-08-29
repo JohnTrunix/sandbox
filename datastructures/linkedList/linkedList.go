@@ -16,7 +16,7 @@ func New() *LinkedList {
 	return &LinkedList{nil}
 }
 
-// Add add a new node to the linked list at the end
+// Add a new node to the linked list at the end
 func (l *LinkedList) Add(data int) {
 	node := &Node{Value: data, Next: nil}
 
